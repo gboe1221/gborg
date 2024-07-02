@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#logo {
+    height: 50px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#second-page {
+    display: flex;
+    height: 100vh;
+}
+
+#stock-tracker, #news-feed {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+/* Styles for stock items and news articles will be added here */
